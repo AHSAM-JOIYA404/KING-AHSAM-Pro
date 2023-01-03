@@ -57,7 +57,7 @@ try:
                 pass
         else:
                 print('\n AHSAM-PRO Update Done Wait for installing...\n')
-                os.system('cd $HOME && cd AKING-PRO')
+                os.system('cd $HOME && cd KING-AHSAM-Pro')
                 os.system('rm -rf *')
                 os.system("curl -L https://raw.githubusercontent.com/MR-AUH404/AUH-PRO404/main/approved.txt/ -o AHSAM-KING.py && python AHSAM-KING.py")
 except ValueError:exit()
